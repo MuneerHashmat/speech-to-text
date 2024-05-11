@@ -10,7 +10,7 @@ function App() {
 
   const [inputText,setInputText]=useState("");
   const [isCopied, setCopied] = useClipboard(inputText, {
-    successDuration:3000
+    successDuration:1500
 });
 
   const {
